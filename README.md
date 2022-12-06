@@ -10,6 +10,5 @@
 >> | *Ahmed Salah* | *Mohamed Hesham* |
 >> | *Yossef Essam* | *Ahmed Hassan* |
 >> | *Mostafa Ismail* | |
-
-<img src="https://user-images.githubusercontent.com/60184582/206036891-14eddd15-38cf-474c-856a-2736cbdf9c48.png" width=500>
-
+> ___
+> <img src="https://user-images.githubusercontent.com/60184582/206036891-14eddd15-38cf-474c-856a-2736cbdf9c48.png">
