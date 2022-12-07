@@ -1,7 +1,7 @@
 > # ***Plant Diseases Prediction based on Climate Change with DL***
 >> | <a href="https://github.com/AhmedNasser1601/Plant-Diseases-Prediction">***Master Branch***</a> | <a href="https://trello.com/b/Mw7xAdzG">***Trello Workspace***</a> | <a href="https://youtube.com/playlist?list=PL36BSHgSRtG-4dsKaMgvQVcDek2VSNdEe">***Recorded Seminars***</a> |
 >> | :-: | :-: | :-: |
->>> | <a href="">***Nasser***</a> | <a href="">***Anas***</a> | <a href="">***Salah***</a> | <a href="">***Hesham***</a> | <a href="">***Yossef***</a> | <a href="">***Hassan***</a> | <a href="">***Mostafa***</a> |
+>>> | <a href="https://github.com/AhmedNasser1601">***Nasser***</a> | <a href="https://github.com/Anasss885">***Anas***</a> | <a href="https://github.com/Ahmedsalahemam">***Salah***</a> | <a href="https://github.com/Muhammad-Hishamm">***Hesham***</a> | <a href="https://github.com/YossefEFM">***Yossef***</a> | <a href="https://github.com/ahmedbasha10">***Hassan***</a> | <a href="">***Mostafa***</a> |
 >>> | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 > ___
 >> | < <a href="https://github.com/AhmedNasser1601/Plant-Diseases-Prediction/tree/ML">**Machine Learning**</a> > | < <a href="https://github.com/AhmedNasser1601/Plant-Diseases-Prediction/tree/Web">**Web Full-Stack**</a> > |
