@@ -3,6 +3,7 @@
 >> | :-: | :-: | :-: |
 >>> | <a href="https://github.com/AhmedNasser1601">***Nasser***</a> | <a href="https://github.com/Anasss885">***Anas***</a> | <a href="https://github.com/Ahmedsalahemam">***Salah***</a> | <a href="https://github.com/Muhammad-Hishamm">***Hesham***</a> | <a href="https://github.com/YossefEFM">***Yossef***</a> | <a href="https://github.com/ahmedbasha10">***Hassan***</a> | <a href="https://github.com/MostafaEsma3il">***Mostafa***</a> |
 >>> | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+>>>> [![HitCount](https://hits.dwyl.com/AhmedNasser1601/Plant-Diseases-Prediction.svg?style=flat-square)](http://hits.dwyl.com/AhmedNasser1601/Plant-Diseases-Prediction)
 > ___
 >> | < <a href="https://github.com/AhmedNasser1601/Plant-Diseases-Prediction/tree/ML">**Machine Learning**</a> > | < <a href="https://github.com/AhmedNasser1601/Plant-Diseases-Prediction/tree/Web">**Web Full-Stack**</a> > |
 >> | :-: | :-: |
