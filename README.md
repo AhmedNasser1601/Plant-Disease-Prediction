@@ -1,4 +1,4 @@
-> # ***Plant Diseases Prediction based on Climate Change with DL***
+> # ***Plant Diseases Prediction with Deep Learning***
 >> | <a href="https://trello.com/b/Mw7xAdzG">***Trello Workspace***</a> | <a href="https://youtube.com/playlist?list=PL36BSHgSRtG-4dsKaMgvQVcDek2VSNdEe">***Recorded Seminars***</a> |
 >> | :-: | :-: |
 >
