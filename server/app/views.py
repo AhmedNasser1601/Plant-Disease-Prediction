@@ -94,28 +94,43 @@ class Plant_Disease_Model(ImageClassificationBase):
         return self.network(x)
 
 
-# transform = transforms.Compose(
-#     [
-#         transforms.ToTensor(),
-#         # transforms.Resize((250, 250)),
-#         # transforms.Normalize(
-#         #     mean=[0.4757, 0.5001, 0.4264], std=[0.2166, 0.1957, 0.2322]
-#         # ),
-#     ]
-# )
+VGG_transform = transforms.Compose(
+    [
+        transforms.ToTensor(),
+        transforms.Resize((250, 250)),
+        transforms.Normalize(
+            mean=[0.4757, 0.5001, 0.4264], std=[0.2166, 0.1957, 0.2322]
+        ),
+    ]
+)
 
-# transform = transforms.Compose(
-#     [
-#         transforms.Resize(256),
-#         transforms.ToTensor(),
-#         transforms.Normalize(
-#             mean=[0.4717, 0.5895, 0.4811], std=[0.2166, 0.1957, 0.2322]
-#         ),
-#     ]
-# )
+Efficient_transform = transforms.Compose(
+    [
+        transforms.Resize(256),
+        transforms.ToTensor(),
+        transforms.Normalize(
+            mean=[0.4717, 0.5895, 0.4811], std=[0.2166, 0.1957, 0.2322]
+        ),
+    ]
+)
 
-# /////////////////////////////////////////////////////////// efficient net //////////////////////////////////////////////////////
+ResNet_transform = transforms.Compose(
+    [
+        transforms.ToTensor(),
+    ]
+)
+
+mixed_transforms = transforms.Compose(
+    [
+        transforms.Resize((256, 256)),
+        transforms.CenterCrop(224),
+        transforms.ToTensor(),
+        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
+    ]
+)
+
 num_classes = 38
+# /////////////////////////////////////////////////////////// efficient net //////////////////////////////////////////////////////
 version = "b4"
 base_model = [
     # expansion, channels, repeats, stride, kernel_size
@@ -457,46 +472,46 @@ class MixedModel(nn.Module):
 
 # ////////////////////////////////////////////////////////// Mixed Model /////////////////////////////////////////////////////////
 
-# classes_name = [
-#     "Apple___Apple_scab",
-#     "Apple___Black_rot",
-#     "Apple___Cedar_apple_rust",
-#     "Apple___healthy",
-#     "Blueberry___healthy",
-#     "Cherry_(including_sour)___Powdery_mildew",
-#     "Cherry_(including_sour)___healthy",
-#     "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
-#     "Corn_(maize)___Common_rust_",
-#     "Corn_(maize)___Northern_Leaf_Blight",
-#     "Corn_(maize)___healthy",
-#     "Grape___Black_rot",
-#     "Grape___Esca_(Black_Measles)",
-#     "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
-#     "Grape___healthy",
-#     "Orange___Haunglongbing_(Citrus_greening)",
-#     "Peach___Bacterial_spot",
-#     "Peach___healthy",
-#     "Pepper,_bell___Bacterial_spot",
-#     "Pepper,_bell___healthy",
-#     "Potato___Early_blight",
-#     "Potato___Late_blight",
-#     "Potato___healthy",
-#     "Raspberry___healthy",
-#     "Soybean___healthy",
-#     "Squash___Powdery_mildew",
-#     "Strawberry___Leaf_scorch",
-#     "Strawberry___healthy",
-#     "Tomato___Bacterial_spot",
-#     "Tomato___Early_blight",
-#     "Tomato___Late_blight",
-#     "Tomato___Leaf_Mold",
-#     "Tomato___Septoria_leaf_spot",
-#     "Tomato___Spider_mites Two-spotted_spider_mite",
-#     "Tomato___Target_Spot",
-#     "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
-#     "Tomato___Tomato_mosaic_virus",
-#     "Tomato___healthy",
-# ]
+classes_name = [
+    "Apple___Apple_scab",
+    "Apple___Black_rot",
+    "Apple___Cedar_apple_rust",
+    "Apple___healthy",
+    "Blueberry___healthy",
+    "Cherry_(including_sour)___Powdery_mildew",
+    "Cherry_(including_sour)___healthy",
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "Corn_(maize)___Common_rust_",
+    "Corn_(maize)___Northern_Leaf_Blight",
+    "Corn_(maize)___healthy",
+    "Grape___Black_rot",
+    "Grape___Esca_(Black_Measles)",
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "Grape___healthy",
+    "Orange___Haunglongbing_(Citrus_greening)",
+    "Peach___Bacterial_spot",
+    "Peach___healthy",
+    "Pepper,_bell___Bacterial_spot",
+    "Pepper,_bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Raspberry___healthy",
+    "Soybean___healthy",
+    "Squash___Powdery_mildew",
+    "Strawberry___Leaf_scorch",
+    "Strawberry___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy",
+]
 
 mixed_classes = [
     "Tomato___Late_blight",
@@ -539,40 +554,48 @@ mixed_classes = [
     "Corn_(maize)___healthy",
 ]
 
-# model = Plant_Disease_Model()
-# model.load_state_dict(
-#     torch.load("modelVGG16Modified.pth", map_location=torch.device("cpu"))
-# )
-# model.eval()
-# model = EfficientNet(version=version, num_classes=num_classes)
-# model.load_state_dict(torch.load("efficient_net.pth", map_location=torch.device("cpu")))
-# model.eval()
-# model = ResNet50(3, 38)
-# model.load_state_dict(torch.load("ResNet.pth", map_location=torch.device("cpu")))
-# model.eval()
-model = MixedModel(38)
-model.load_state_dict(torch.load("MixedNet.pt", map_location=torch.device("cpu")))
-model.eval()
+
+def set_model(model_name):
+    model = Plant_Disease_Model()
+    model.load_state_dict(
+        torch.load("modelVGG16Modified.pth", map_location=torch.device("cpu"))
+    )
+    model.eval()
+    transform = VGG_transform
+    classes = classes_name
+    if model_name == "Efficient Net":
+        model = EfficientNet(version=version, num_classes=num_classes)
+        model.load_state_dict(
+            torch.load("efficient_net.pth", map_location=torch.device("cpu"))
+        )
+        model.eval()
+        transform = Efficient_transform
+    elif model_name == "ResNet50":
+        model = ResNet50(3, num_classes=num_classes)
+        model.load_state_dict(
+            torch.load("ResNet.pth", map_location=torch.device("cpu"))
+        )
+        model.eval()
+        transform = ResNet_transform
+    elif model_name == "MixedNet":
+        model = MixedModel(num_classes=num_classes)
+        model.load_state_dict(
+            torch.load("MixedNet.pt", map_location=torch.device("cpu"))
+        )
+        model.eval()
+        transform = mixed_transforms
+        classes = mixed_classes
+    return model, transform, classes
 
 
-mixed_transforms = transforms.Compose(
-    [
-        transforms.Resize((256, 256)),
-        transforms.CenterCrop(224),
-        transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
-    ]
-)
-
-
-def predict_img(img):
+def predict_img(img, model, transform, classes):
     image = Image.open(io.BytesIO(img))
-    image = mixed_transforms(image)
+    image = transform(image)
     xb = image.unsqueeze(0)
     yb = model(xb)
     _, preds = torch.max(yb, dim=1)
-    print(preds[0].item())
-    return mixed_classes[preds[0].item()]
+    print(classes)
+    return classes[preds[0].item()]
 
 
 views = Blueprint("views", __name__)
@@ -581,8 +604,9 @@ views = Blueprint("views", __name__)
 @views.route("/predict", methods=["POST"])
 def predict():
     image = request.files["image"].read()
-    prediction = predict_img(image)
-    print(prediction)
+    model_name = request.form.get("model")
+    model, transform, classes = set_model(model_name)
+    prediction = predict_img(image, model, transform, classes)
     return jsonify({"disease": prediction})
 
 
