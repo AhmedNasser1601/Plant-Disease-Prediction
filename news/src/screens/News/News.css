@@ -1,0 +1,117 @@
+.newsMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.sideBarContent {
+  min-width: 20%;
+  margin-left: 30px;
+}
+
+.newsContent {
+  width: 75%;
+}
+
+.diseaseCard {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.diseaseCard:hover {
+  border: rgb(28, 201, 66);
+  box-shadow: 0px 20px 20px 0px rgb(12 0 46 / 20%);
+}
+
+.diseaseImg {
+  max-height: 150px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .newsContent {
+    width: 100%;
+  }
+
+  .sideBarContent {
+    margin: 0;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .sideBarContent .sideBox {
+    width: 100%;
+  }
+
+  .searchInput .plantInput {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .diseaseCard {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+/*
+.newsContent {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.newsContent .diseaseCard {
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.newsContent .diseaseCard:hover {
+  border-color: green;
+}
+
+.diseaseImg {
+  height: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+
+.searchPlant {
+  margin-top: 20px;
+  width: 30%;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid rgb(175, 172, 172);
+  display: inline-block;
+  transition: all 0.2s linear;
+}
+
+.searchIcon {
+  height: 39px;
+  width: 50px;
+  text-align: center;
+  background-color: aqua;
+  position: absolute;
+  right: 0px;
+  transition: all 0.2s linear;
+}
+
+.searchIcon:hover {
+  background-color: blueviolet;
+}
+
+.icon {
+  margin-top: 10px;
+}*/

@@ -1,0 +1,31 @@
+.newHeadContent {
+  height: 100%;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  filter: contrast(120%);
+}
+
+.slideContent {
+  position: absolute;
+  top: 60%;
+  padding-left: 20px;
+}
+
+.slideContent h2 {
+  font-size: 40px;
+}
+
+.slideContent p {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 968px) {
+  .slideContent h2 {
+    font-size: 32px;
+  }
+
+  .slideContent p {
+    font-size: 20px;
+  }
+}

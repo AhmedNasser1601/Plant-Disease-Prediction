@@ -1,0 +1,167 @@
+/* Global styles */
+.mb {
+  margin-bottom: 100px;
+}
+
+.pad {
+  padding: 20px;
+}
+
+.headers {
+  font-size: 32px;
+  margin-bottom: 40px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Header section style */
+.homeHeader {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)),
+    url("../../images/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContent {
+  max-width: 50%;
+  height: 30%;
+  text-align: center;
+  color: white;
+}
+
+.headerContent h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-shadow: 2px 7px black;
+  margin-bottom: 15px;
+}
+
+.headerContent p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.02;
+  margin-top: 32px;
+  color: #fff;
+}
+
+/* Goals section style */
+
+.goals,
+.about {
+  text-align: center;
+}
+
+.goals h2,
+.about h2 {
+  position: relative;
+}
+
+.about h2::before,
+.goals h2::before {
+  content: "";
+  background-image: url("../../images/beforeHead.PNG");
+  background-position: left top;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 24px;
+  left: -40px;
+  top: 10px;
+  width: 25px;
+}
+
+.goals h2::after,
+.about h2::after {
+  content: "";
+  background-image: url("../../images/afterHead.PNG");
+  background-position: left top;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 24px;
+  right: -40px;
+  top: 10px;
+  width: 25px;
+}
+
+.goals .goalBox {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  transition: all 0.3s;
+}
+
+.goals .goalBox .goalContent {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.goals .goalBox:hover {
+  background-color: #c2ee92;
+}
+
+.goals .goalBox .goalBoxHead {
+  position: relative;
+}
+
+.goals .goalBox .goalBoxHead::after {
+  content: "";
+  width: 24px;
+  height: 2px;
+  background-color: #77c720;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+}
+
+@media screen and (max-width: 1100px) {
+  .headerContent {
+    max-width: 75%;
+  }
+  .headerContent h1 {
+    font-size: 46px;
+  }
+  .headerContent p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .headerContent {
+    max-width: 90%;
+  }
+  .headerContent h1 {
+    font-size: 40px;
+  }
+  .headerContent p {
+    font-size: 18px;
+  }
+  .headers {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headerContent h1 {
+    font-size: 32px;
+  }
+  .headerContent p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .headerContent h1 {
+    font-size: 26px;
+  }
+  .headerContent p {
+    font-size: 14px;
+  }
+}

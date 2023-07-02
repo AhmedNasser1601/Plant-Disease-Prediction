@@ -1,0 +1,10 @@
+.diseaseContainer {
+  padding-top: 100px;
+  height: 66.3vh;
+}
+
+.diseaseImage {
+  width: 50%;
+  height: 200px;
+  background-image: url("../../images/blackRotLesionsApple.jpg");
+}
