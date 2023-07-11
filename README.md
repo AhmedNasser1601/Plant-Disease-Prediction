@@ -12,7 +12,7 @@
 
 > ---
 
-> https://github.com/AhmedNasser1601/Plant-Diseases-Prediction/assets/60184582/86994d73-3fd4-43f6-aa13-e968ae72700c
+> https://github.com/AhmedNasser1601/Plant-Disease-Prediction/assets/60184582/4bd129e8-1cf3-4dcb-a268-4fad5070ee78
 
 > ---
 
@@ -25,19 +25,23 @@
 >     <td><a href="https://www.kaggle.com/code/ahmednasser1601/mixednet">MixedNet</a></td>
 >   </tr>
 > </table>
+>
+> <table align="center">
+>   <tr>
+>     <td>Dataset |> <a href="https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset">New Plant Disease Dataset</a></td>
+>   </tr>
+> </table>
 
 > ---
 
 > ## Team Members
-> <img width="540" align="center" src="https://github.com/AhmedNasser1601/Plant-Diseases-Prediction/assets/60184582/22b4684c-ae39-4377-ae8c-47a9ab9c6321"/>
+> <img width="540" align="center" src="https://github.com/AhmedNasser1601/Plant-Disease-Prediction/assets/60184582/79b8b04d-1f22-48a7-9666-1aeff3cd3f44"/>
 > <table>
 >   <tr>
 >     <td><a href="https://github.com/AhmedNasser1601">Ahmed Nasser</a></td>
 >     <td><a href="https://github.com/Anasss885">Anas Alaa</a></td>
 >     <td><a href="https://github.com/ahmedbasha10">Ahmed Hassan</a></td>
 >     <td><a href="https://github.com/Muhammad-Hishamm">Mohamed Hisham</a></td>
->   </tr>
->   <tr>
 >     <td><a href="https://github.com/YossefEFM">Yossef Essam</a></td>
 >     <td><a href="https://github.com/Ahmedsalahemam">Ahmed Salah</a></td>
 >     <td><a href="https://github.com/MostafaEsma3il">Mostafa Ismail</a></td>
@@ -47,3 +51,9 @@
 > ---
 
 > [![Visits](https://hits.sh/github.com/AhmedNasser1601/Plant-Diseases-Prediction.svg?label=Visits&logo=flask)](https://hits.sh/github.com/AhmedNasser1601/Plant-Diseases-Prediction)
+
+
+
+
+
+
