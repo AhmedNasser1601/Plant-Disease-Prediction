@@ -1,4 +1,5 @@
 # ***Plant Disease Prediction Using Deep Learning***
+> <p>A machine learning-based web application for predicting plant diseases. The project utilizes a Convolutional Neural Network (CNN) model trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments. Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, this tool aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.<p>
 
 > ## Graduation Project |> FCIS ASU `23
 > <table align="center">
@@ -44,7 +45,7 @@
 >     <td><a href="https://github.com/Muhammad-Hishamm">Mohamed Hisham</a></td>
 >     <td><a href="https://github.com/YossefEFM">Yossef Essam</a></td>
 >     <td><a href="https://github.com/Ahmedsalahemam">Ahmed Salah</a></td>
->     <td><a href="https://github.com/MostafaEsma3il">Mostafa Ismail</a></td>
+>     <td><a href="https://github.com/MostafaEsma3il">Mostafa Esmail</a></td>
 >   </tr>
 > </table>
 
