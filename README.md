@@ -1,6 +1,4 @@
 # ***Plant Disease Prediction Using Deep Learning***
-> <p>Machine-Learning based website for predicting plant diseases. It utilizes CNN models trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments.<p>
-> <code>Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, and aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.</code>
 
 > ## Graduation Project |> FCIS ASU `23
 > <table align="center">
@@ -11,6 +9,9 @@
 >     <td><a href="https://cisasuedu-my.sharepoint.com/:p:/g/personal/ahmed20191701016_cis_asu_edu_eg/EV9JbJ6bb_NElnBmygyq0wABqyk1avAYWFjISnj5SbSWuA?e=O7v9gT">Poster</a></td>
 >   </tr>
 > </table>
+
+> <p>Machine-Learning based website for predicting plant diseases. It utilizes CNN models trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments.<p>
+> <code>Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, and aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.</code>
 
 > ---
 
