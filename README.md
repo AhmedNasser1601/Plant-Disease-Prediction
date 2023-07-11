@@ -23,7 +23,7 @@
 > <table align="center">
 >   <tr>
 >     <td><a href="https://www.kaggle.com/code/ahmedbasha10/modified-vgg16">VGG16</a></td>
->     <td><a href="https://www.kaggle.com/ahmedsalahemam">EfficientNet</a></td>
+>     <td><a href="https://www.kaggle.com/code/a35674123/notebook892dc0316d">EfficientNet</a></td>
 >     <td><a href="https://www.kaggle.com/code/yossefessam1269/resnet50">ResNet50</a></td>
 >     <td><a href="https://www.kaggle.com/code/ahmednasser1601/mixednet">MixedNet</a></td>
 >   </tr>
