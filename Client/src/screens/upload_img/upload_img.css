@@ -1,0 +1,109 @@
+.btn {
+  background-color: #454cad;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  border: 1px solid #454cad;
+}
+
+.checkContent {
+  margin: auto;
+  position: relative;
+}
+
+.checkBtn {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 1rem 0.5rem;
+  clear: both;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: initial;
+  border-radius: 0.2rem;
+  outline: none;
+  padding: 0 1rem;
+  height: 40px;
+  width: 20%;
+  line-height: 36px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  background: #454cad;
+  border-color: #454cad;
+  cursor: pointer;
+}
+
+.checkBtn:hover {
+  background-color: white;
+  border-color: #454cad;
+  color: #454cad;
+}
+
+.uploadImage {
+  width: 40%;
+  height: 300px;
+  position: relative;
+  position: absolute;
+  left: 32%;
+  top: 30%;
+  border: 3px solid rgb(208, 206, 216);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear;
+  z-index: 900;
+}
+
+.uploadImage:hover {
+  box-shadow: 0px 10px 10px 0px rgb(0 11 40 / 14%);
+  border-color: #454cad;
+}
+
+.uploadContent {
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.uploadContent p {
+  margin: 0 0 0.5rem 0;
+  color: #5f6982;
+}
+
+.fileIcon {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-size: 2rem;
+  color: rgb(161, 160, 160);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #454cad;
+}
+
+.form_controlers {
+  display: flex;
+  justify-content: space-around;
+}
+
+#file-upload-form {
+  margin-bottom: 20px;
+}

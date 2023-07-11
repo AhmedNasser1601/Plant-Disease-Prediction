@@ -1,0 +1,11 @@
+.mySwiper,
+.swiper-wrapper {
+  height: 40vh;
+  margin-top: 20px;
+}
+
+.imgSlide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}

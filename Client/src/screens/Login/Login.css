@@ -1,0 +1,21 @@
+.DemoinputTxt {
+  color: black;
+  background-color: #fbffff;
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.DemoBtn {
+  color: #011712;
+  background-color: rgb(107, 172, 107);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  width: 20em;
+  font-size: large;
+  font-weight: 900;
+}

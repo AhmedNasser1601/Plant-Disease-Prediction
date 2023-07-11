@@ -1,0 +1,106 @@
+@import "tailwindcss/base";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1500;
+}
+
+.nav-content {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages-link,
+.nav-forms {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+  .nav-content {
+    transition: 0.4s linear;
+    position: absolute;
+    right: -300px;
+    top: 80px;
+    width: 10rem;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    padding: 10px;
+    z-index: 900;
+  }
+  .nav-content.active {
+    right: 20px;
+  }
+  .nav-links,
+  .pages-link,
+  .nav-forms {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-button {
+    display: inline-block;
+  }
+  .nav-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/*
+.nav-links,
+.nav-forms {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  color: white;
+}
+*/
