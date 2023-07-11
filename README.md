@@ -1,5 +1,6 @@
 # ***Plant Disease Prediction Using Deep Learning***
-> <p>A machine learning-based web application for predicting plant diseases. The project utilizes a Convolutional Neural Network (CNN) model trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments. Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, this tool aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.<p>
+> <p>Machine-Learning based website for predicting plant diseases. It utilizes CNN models trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments.<p>
+> <code>Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, and aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.</code>
 
 > ## Graduation Project |> FCIS ASU `23
 > <table align="center">
@@ -42,9 +43,9 @@
 >     <td><a href="https://github.com/AhmedNasser1601">Ahmed Nasser</a></td>
 >     <td><a href="https://github.com/Anasss885">Anas Alaa</a></td>
 >     <td><a href="https://github.com/ahmedbasha10">Ahmed Hassan</a></td>
+>     <td><a href="https://github.com/Ahmedsalahemam">Ahmed Salah</a></td>
 >     <td><a href="https://github.com/Muhammad-Hishamm">Mohamed Hisham</a></td>
 >     <td><a href="https://github.com/YossefEFM">Yossef Essam</a></td>
->     <td><a href="https://github.com/Ahmedsalahemam">Ahmed Salah</a></td>
 >     <td><a href="https://github.com/MostafaEsma3il">Mostafa Esmail</a></td>
 >   </tr>
 > </table>
@@ -52,9 +53,3 @@
 > ---
 
 > [![Visits](https://hits.sh/github.com/AhmedNasser1601/Plant-Diseases-Prediction.svg?label=Visits&logo=flask)](https://hits.sh/github.com/AhmedNasser1601/Plant-Diseases-Prediction)
-
-
-
-
-
-
