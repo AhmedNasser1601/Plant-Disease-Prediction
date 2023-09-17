@@ -41,7 +41,7 @@
 > ---
 
 > ## Team Members
-> <img width="95%" align="center" src="https://github.com/AhmedNasser1601/Plant-Disease-Prediction/assets/60184582/79b8b04d-1f22-48a7-9666-1aeff3cd3f44"/>
+> <img width="100%" align="center" src="https://github.com/AhmedNasser1601/Plant-Disease-Prediction/assets/60184582/79b8b04d-1f22-48a7-9666-1aeff3cd3f44"/>
 > <table>
 >   <tr>
 >     <td><a href="https://github.com/Muhammad-Hishamm">Mohamed Hisham</a></td>
