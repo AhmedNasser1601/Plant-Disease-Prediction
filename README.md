@@ -12,7 +12,7 @@
 > </table>
 
 > <p>Machine-Learning based website for predicting plant diseases. It utilizes CNN models trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments.</p>
->
+> <div align="center"><a href="https://github.com/AhmedNasser1601/Plant-Disease-Prediction"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&duration=2500&pause=1000&color=fff&background=000&center=true&vCenter=true&repeat=true&width=300&lines=View%20Repository"/></a></div>
 > <code>Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, and aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.</code>
 
 > ---
@@ -29,7 +29,7 @@
 
 > <table align="center">
 >   <tr>
->     <td><a href="https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset">New Plant Disease Dataset</a></td>
+>     <td><a href="https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset"><b>New Plant Disease Dataset</b></a></td>
 >   </tr>
 > </table>
 > <code>This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found on this github repo. This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes. The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure. A new directory containing 33 test images is created later for prediction purpose.</code>
