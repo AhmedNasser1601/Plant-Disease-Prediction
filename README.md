@@ -11,8 +11,9 @@
 >   </tr>
 > </table>
 
+<div align="center"><a href="https://github.com/AhmedNasser1601/Plant-Disease-Prediction"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=1000&color=0FF&center=true&vCenter=true&repeat=true&width=150&lines=View%20Codes"/></a></div>
+
 > <p>Machine-Learning based website for predicting plant diseases. It utilizes CNN models trained on a diverse dataset of plant images to accurately classify and predict the presence of diseases in various crop species. The website provides an intuitive interface for users to upload images of plant leaves and receive real-time disease predictions, along with information on disease types and potential treatments.</p>
-> <div align="center"><a href="https://github.com/AhmedNasser1601/Plant-Disease-Prediction"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=1000&color=0FF&center=true&vCenter=true&repeat=true&width=150&lines=View%20Codes"/></a></div>
 > <code>Developed as a graduation project by a team of Bioinformatics students at Ain Shams University, and aims to assist farmers and researchers in early disease detection and management, ultimately contributing to global food security and sustainable agriculture.</code>
 
 > ---
@@ -36,7 +37,7 @@
 
 > ---
 
-> <a href="https://github.com/AhmedNasser1601/Plant-Disease-Prediction/assets/60184582/4bd129e8-1cf3-4dcb-a268-4fad5070ee78"><video width="100%" controls="" autoplay="" name="media"><source src="https://github-production-user-asset-6210df.s3.amazonaws.com/60184582/252737109-4bd129e8-1cf3-4dcb-a268-4fad5070ee78.mp4" type="video/mp4"></video></a>
+<a href="https://github.com/AhmedNasser1601/Plant-Disease-Prediction/assets/60184582/4bd129e8-1cf3-4dcb-a268-4fad5070ee78"><video width="100%" controls="" autoplay="" name="media"><source src="https://github-production-user-asset-6210df.s3.amazonaws.com/60184582/252737109-4bd129e8-1cf3-4dcb-a268-4fad5070ee78.mp4" type="video/mp4"></video></a>
 
 > ---
 
@@ -56,4 +57,4 @@
 
 > ---
 
-> [![Visits](https://hits.sh/github.com/AhmedNasser1601/Plant-Diseases-Prediction.svg?label=Visits&logo=flask)](https://hits.sh/github.com/AhmedNasser1601/Plant-Diseases-Prediction)
+<img src="https://hits.sh/github.com/AhmedNasser1601/Plant-Disease-Prediction.svg?label=Website%20Visits&logo=flask"/>
