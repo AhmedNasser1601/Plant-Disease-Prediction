@@ -58,3 +58,5 @@
 > ---
 
 <img src="https://hits.sh/github.com/AhmedNasser1601/Plant-Disease-Prediction.svg?label=Website%20Visits&logo=flask"/>
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AhmedNasser1601/Plant-Disease-Prediction)
